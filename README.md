@@ -25,7 +25,7 @@ Inside a scss file
         background-color: themed("iconColor");
        }
 
-       @include breakpoint-min() {
+       @include breakpoint-min($breakpoint-md) {
             padding: 10px
             font-family: $font-secondary;
        }
