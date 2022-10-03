@@ -1,0 +1,14 @@
+// Light mode/Dark mode: Dynamic theming through SCSS mixin
+// https://david-x.medium.com/light-mode-dark-mode-dynamic-theming-through-scss-mixin-c86e57a4de49
+
+// SETTINGS variables and configurations.
+@import "settings/tokens";
+@import "settings/colors";
+
+// THEMES, styles for theming our application
+@import "themes/custom-theme.scss";
+
+// UTILS functions, mixins and other helpers.
+@import "utils/functions";
+@import "utils/mixins";
+@import "utils/breakpoints";

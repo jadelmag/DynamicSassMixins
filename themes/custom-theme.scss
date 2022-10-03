@@ -1,0 +1,12 @@
+/*
+ * Theme definitions
+ */
+
+$themes: (
+    light: (
+        iconColor: $color-text-black-base,
+    ),
+    dark: (
+        iconColor: $color-background-light-1,
+    ),
+);

@@ -1,0 +1,114 @@
+/* TYPOGRAPHY */
+
+// Font families
+$font-primary: "Montserrat";
+$font-secondary: "Open Sans";
+// Font weights
+$font-weight-extra-light: 200;
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-semi-bold: 600;
+$font-weight-bold: 700;
+$font-weight-extra-bold: 800;
+$font-weight-black: 900;
+
+/* FONTS */
+$font-size-xs: 12px;
+$font-size-sm: 14px;
+$font-size-md: 16px;
+$font-size-lg: 18px;
+$font-size-xl: 20px;
+
+/* SPACING */
+$spacing-xs: 10px;
+$spacing-sm: 12px;
+$spacing-md: 16px;
+$spacing-lg: 20px;
+$spacing-xl: 24px;
+
+// Google Fonts imports
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,800|Open+Sans:400,400i,700");
+
+/* COLOR */
+
+// Primary color
+$color-primary-brighter-2: #b8dcec;
+$color-primary-brighter-1: #7ebedc;
+$color-primary: #319acb;
+$color-primary-hover: #356379;
+$color-primary-darker-1: #387c9b;
+$color-primary-darker-2: #7687c3;
+$color-primary-darker-3: #25576e;
+$color-primary-darker-4: #7c8285;
+// Secondary color
+$color-secondary-brighter-2: #f4afbe;
+$color-secondary-brighter-1: #f38099;
+$color-secondary: #ee4266;
+$color-secondary-darker-1: #be3652;
+$color-secondary-darker-2: #7a1f32;
+// System feedback
+$color-system-feedback-success: #18b549;
+$color-system-feedback-success-2: #62c3a3;
+$color-system-feedback-success-3: #92c089;
+$color-system-feedback-success-3-disabled_dark: #4f5f5c;
+$color-system-feedback-success-3-disabled_light: #e9f2e7;
+$color-system-feedback-success-4: #3cb371;
+$color-system-feedback-error: #e37272;
+$color-system-feedback-error-disabled_dark: #5b5358;
+$color-system-feedback-error-disabled_light: #f9e3e3;
+$color-system-feedback-warning: #e9c417;
+$color-system-feedback-warning-disabled_dark: #5c5f4b;
+$color-system-feedback-warning-disabled_light: #fbf3d1;
+$color-system-feedback-info: #179ce9;
+$color-system-feedback-disabled: #bbbbbb;
+
+// Text Black
+$color-text-black-base: #343434;
+$color-text-black-brighter-1: #5c5c5c;
+$color-text-black-brighter-2: #838383;
+// Text White
+$color-text-white-base: #ffffff;
+$color-text-white-darker-1: #c6c6c6;
+$color-text-white-darker-2: #b2b2b2;
+
+/* ELEVATION */
+$elevation-1: 0 0 2px 0 rgba(0, 0, 0, 0.1), 0 2px 2px 0 rgba(0, 0, 0, 0.1),
+    0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+$elevation-2: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 3px 4px 0 rgba(0, 0, 0, 0.16),
+    0 1px 5px 0 rgba(0, 0, 0, 0.16);
+$elevation-3: 0 3px 3px 0 rgba(0, 0, 0, 0.16), 0 3px 4px 0 rgba(0, 0, 0, 0.18),
+    0 1px 8px 0 rgba(0, 0, 0, 0.2);
+$elevation-4: 0 2px 4px 0 rgba(0, 0, 0, 0.14), 0 4px 5px 0 rgba(0, 0, 0, 0.16),
+    0 1px 10px 0 rgba(0, 0, 0, 0.18);
+$elevation-5: 0 5px 10px 0 rgba(0, 0, 0, 0.14), 0 2px 6px 0 rgba(0, 0, 0, 0.16),
+    0 2px 8px 0 rgba(0, 0, 0, 0.18);
+$elevation-6: 0 6px 10px 0 rgba(0, 0, 0, 0.16), 0 1px 12px 0 rgba(0, 0, 0, 0.18),
+    0 3px 5px 0 rgba(0, 0, 0, 0.2);
+
+/* SHADOWS */
+$shadow-xs: 0 1px 3px rgba(0, 0, 0, 0.05), 0 1px 2px rgba(0, 0, 0, 0.1);
+$shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.05),
+    rgba(0, 0, 0, 0.05) 0px 10px 15px -5px, rgba(0, 0, 0, 0.04) 0px 7px 7px -5px;
+$shadow-md: 0 1px 3px rgba(0, 0, 0, 0.05),
+    rgba(0, 0, 0, 0.05) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+$shadow-lg: 0 1px 3px rgba(0, 0, 0, 0.05),
+    rgba(0, 0, 0, 0.05) 0px 28px 23px -7px,
+    rgba(0, 0, 0, 0.04) 0px 12px 12px -7px;
+$shadow-xl: 0 1px 3px rgba(0, 0, 0, 0.05),
+    rgba(0, 0, 0, 0.05) 0px 36px 28px -7px,
+    rgba(0, 0, 0, 0.04) 0px 17px 17px -7px;
+
+/* RADIUS */
+$radius-xs: 2px;
+$radius-sm: 4px;
+$radius-md: 8px;
+$radius-lg: 16px;
+$radius-xl: 32px;
+
+/* BREAKPOINTS */
+$breakpoint-xs: 576;
+$breakpoint-sm: 768;
+$breakpoint-md: 992;
+$breakpoint-lg: 1200;
+$breakpoint-xl: 1400;
